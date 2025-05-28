@@ -11,9 +11,46 @@
 
 <body>
 
+    <div class="time">
+        
+    </div>
+
     <div class="container">
         <div class="jarvis my-5">
-            <h1>Hey Jarvis</h1>
+
+            <div class="weather">
+
+                <div class="temp">
+                    
+                    <p id="location"></p>
+                    <p id="country"></p>
+                    <p id="weatherT"></p>
+                    <p id="weatherD"></p>
+                    <img src="" id="weatherIcon">
+                    <p id="feelLike"></p>
+                    <p id="minT"></p>
+                    <p id="maxT"></p>
+                
+                </div>
+            </div>
+
+            <div class="details my-5">
+                <label for="Name">Your Name :</label>
+                <input type="text" class="form-control mt-2" placeholder="Enter Your Name">
+                <br>
+                <label for="Location">Your Location :</label>
+                <input type="text" class="form-control mt-2" placeholder="Enter Your city name">
+                <br>
+                <label for="Instagram">Your Instagram profile :</label>
+                <input type="text" class="form-control mt-2" placeholder="Enter Your insta id">
+                <br>
+                <label for="Github">Your Github profile :</label>
+                <input type="text" class="form-control mt-2" placeholder="Enter Your Github profile">
+                <br>   
+                <button class="btn  btn-success mt-4" id="submitBtn">Submit</button> 
+
+            </div>
+
             <button class="btn btn-primary" id="start">Vr Start</button>
             <button class="btn btn-primary" id="stop">Vr Stop</button>
             <button class="btn btn-danger" id="speak">Vr speak</button>
